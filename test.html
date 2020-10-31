@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+<link rel="stylesheet" href="./test.css">
+</head>
+<body>
+   <div>
+    <h1>Survey Form</h1>
+   </div>
+                  <br>
+
+                  <div class="body-part">
+                    <h3>Let us know how we can improve our service</h3>
+
+    
+            <label for="name">*Name:</label>
+            <input id="name" type="text" maxlength="10" size="30" name="name" value="" required>
+            <br>
+            <br>
+
+            <label for="email">*Email</label>
+                    <input id="email" type="text" name="email" maxlength="10" size="30" value="Type your Email" required>
+                    <br>
+                    <br>
+                    <label for="year">*Age:</label>
+                    <input id="year" type="number" step="1" name="year" maxlength="10" size="30">
+                    <br>
+                        <br>
+                        <label for="phone">*Handphone:</label>
+                        <input id="phone" type="text" value="" name="phone" maxlength="10"  size="30"  required>
+                        <br>
+                        <br>
+                        <label for="questions-1">*First time playing Escape Room?</label>
+          <input id="questions-1" type="text" name="questions-1" list="answers" required>
+         <datalist id="answers">
+         <option value="First-Player"></option>
+         <option value="Never played before"></option>
+          
+         </datalist>
+         <br>
+         <br>
+                        <label for="">*Which game you played?</label> 
+                        <br>
+                         <div class="checkboxes">
+                                <label for="game-1"><input type="checkbox" id="game-1" /> <span>Exodus</span></label> 
+                                <br>
+                                <label for="game-2"><input type="checkbox" id="game-2" /> <span>Alcatraz</span></label>
+                                <br>
+                                <label for="game-3"><input type="checkbox" id="game-3" /> <span>Aokigahara</span></label>
+                                <br>
+                                <label for="game-4"><input type="checkbox" id="game-4" /> <span>Mausoleum</span></label>
+                                <br>
+                                <label for="game-5"><input type="checkbox" id="game-5" /> <span>Castiglione</span></label>
+                                <br>
+                              </div>
+
+                              <label for="">Will you recommend the game to your friends?</label>
+                              <br>
+                        
+                              <div class="radio">
+                                    <label for="yes"><input type="radio" id="yes" name="answer" required/> <span>Yes</span></label> 
+                                    <br>
+                                    <label for="maybe"><input type="radio" id="maybe" name="answer" required /> <span>Maybe</span></label>
+                                    <br>
+                                    <label for="no"><input type="radio" id="no" name="answer" required/> <span>No</span></label>
+                                    
+                                  </div>
+                    
+                        <br>
+                        <br>
+                       
+                        <label for="message"> Any comments or suggestions?</label>
+                        <br>
+                        <br>
+                        <textarea class="message" name="message" rows="10" cols="80">
+                            </textarea>
+
+
+                <form action="test.html" method="GET"></form>
+                        <a class="btn" href="blehblehbleh922@gmail.com">SUBMIT</a>
+                    
+                      
+                        
+                      </form>
+                    </div>     
+    
+</body>
+</html>
